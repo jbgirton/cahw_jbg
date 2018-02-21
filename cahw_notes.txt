@@ -1,0 +1,52 @@
+Cabled Array HackWeek notes
+
+sign up on Slack, Github, etc
+projects: HPIES, 
+organizers: Rob Fatland, Deb Kelley, Aaron Marburg, Wu-Jung Lee
+goals: cloud computing, OOI data, programming tools (python), also how
+do I get AMPS data with automated scripts?
+
+HPIES project...want to know whether it works... compare P to
+barotropic tide model (TPXO); compare IES TT to internal tide model
+(Zhao) and/or 
+
+Jupyter notebooks:
+cahwhub.cloudmaven.org
+shift-enter runs code
+-->interactive tool on Jupyter (at Amazon?)...create plots and test out
+code in web browser (chrome)
+
+OOI cabled array (Kelley):
+- winched profiler has been working well. lots of profiles! (but what
+are they good for?)
+- NSF Geo has a high success rate now (78%?) must be for geo-only
+projects
+- coastal currents, shelf-basin exchange, nutrients/oxygen/pH
+- what about coastal canyons, sediment flows, slope erosion by
+internal waves, conduits for ocean property exchange and 
+- Axial caldera: Deb's main interest is volcanic eruptions and
+hydrothermal vents. 
+- The Future: lots of tsunami/earthquake operational warning systems
+proposed/planned around the world.
+
+Data talk (Mike Vardaro):
+help@oceanobservatories.org
+http://oceanobservatories.org
+data are telemetered, recovered, streamed, shipboard, or metadata
+levels raw, L0, L1, L2
+Miyamoto asks about timestamps: most things are GPS referenced, but
+some instruments have internal clocks...how are these referenced
+later?
+
+Challenges: integrating data streams... satellite SST, SSH; Argo
+profiles, model output (HYCOM, LiveOcean).
+
+Python/Jupyter session:
+yellow/green notes indicate
+help/ok or science/methods
+jupyter hub...
+Try to learn: esc-A, esc-B, write text, write latex format, 
+Good for sharing
+- If not working on github, try nbviewer to get graphic rendering.
+- building stuff on swcarpentry
+- scikit is a machine learning package (popular)
